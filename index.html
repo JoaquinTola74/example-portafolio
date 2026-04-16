@@ -1,113 +1,254 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portafolio de Hebert Cussi, desa">
+    <meta name="keywords" content="Hebert Cussi, desarrollador, softwa"> 
+    <meta name="author" content="Hebert Cussi Cuentas" />
+    <meta property="og:title" content="Portafolio de Hebert Cussi" /> 
+    <meta property="og:description" content="Descubre los proyectos y ">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hebertcussi.dev/" />
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="assets/css/style2.css" />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">Joaquin Tola Copa</div>
-                <nav>
-                    <ul>
-                        <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="#acercade">Acerca de</a></li>
-                        <li><a href="#servicios">Servicicos</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
-            
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">Joaquin Tola Copa</div>
+          <nav>
+            <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#acercade">Acerca de</a></li>
+              <li><a href="#servicios">Mis Proyectos</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </nav>
         </div>
-        <!-- <h1>Bienvenidos a nuestro sitio</h1> -->
+      </div>
+      <!-- <h1>Bienvenido a mi sitio web</h1>   -->
     </header>
     <main>
-        <section id="inicio">
-            <!-- <h2>Inicio</h2> -->
-            <div class="container person">
-                <div class="person-content">
-                    <h1>Joaquin Tola Copa</h1>
-                    <p>Soy Profesional en Informática con experiencia en el campo de la programación, diseño web e Infraestructura, me apasiona la tecnología, es fascinante cumplir los retos, en las cuales veo una oportunidad para demostrar mis capacidades y para poder seguir creciendo profesionalmente. Estoy convencido que con entusiasmo y dedicación se pueden lograr los objetivos.</p>
-                    <a href="#contacto" class="btn">Contactame</a>
-                </div>
+      <section id="inicio" aria-label="Presentacion">
+        <div class="container person">
+          <div class="person-content">
+            <h1>Hola, soy Joaquin Tola</h1>
+            <p>
+              Desarrollador de Software y Analista Programador Universitario
+            </p>
+            <div class="actions">
+                <a href="#servicios" class="btn btn-primary">Contactame</a>
+                <a href="#contacto" class="btn btn-secondary">Contactame</a>
             </div>
-
-        </section>
-        <section id="acercade">
-            <div class="container about">
-                <h2>Acerca de mi</h2>
-                <p>Soy un apacionado por la programacion, El perfil de un informático combina habilidades técnicas sólidas (programación, redes, sistemas) con habilidades blandas como resolución de problemas, pensamiento lógico y comunicación</p>
-                <div class="lenguajes">Lenguajes de Programacion:
-                    <div class="item-1">Nodejs (nestjs, express)</div>
-                    <div class="item-1">PHP (Laravel)</div>
-                    <div class="item-1">Java (spring)</div>
-                    <div class="item-1">Javascript/typescript (Angular, React)</div>
-                    <div class="item-1">Bases de Datos (mysql , postgrasql)</div>
+            <aside class="person-img" aria-hidden="true">
+                <div class="float-card card-a">Java</div>
+                <div class="float-card card-b">Angular</div>
+                <div class="float-card card-c">ASP.Net</div>
+                <div class="avatar">
+                    <div class="avatar-interior">JTC</div>
                 </div>
-            </div>
-
-            
-
-        </section>
-        <section id="servicios">
-            <div class="container project">
-                <h2>Nuestros Proyectos</h2>
-                <div class="person-content person">
-                    <h1>Portafolio de Proyectos</h1>
-                    <p>Este portafolio de proyectos es una recopilación digital de los mejores trabajos, códigos y soluciones tecnológicas desarrolladas en mi experiencia profesional. Funciona como una carta de presentación visual para destacar habilidadses técnicas en desarrollo, diseño o ingeniería ante reclutadores, superando la información limitada de un currículum tradicional.</p>
-                    <div class="lenguajes">
-                        <div class="item-2"><h4>Sistema Broker</h4> (Tecnologia: ASP.NET SQL Server) <p><a href="#" class="btn-more">Ver mas</a></p></div>
-                        <div class="item-2"><h4>Sistema Avaluos</h4> (Tecnologia: ASP.NET Core SQL Server)<p><a href="#" class="btn-more">Ver mas</a></p></div>
-                        <div class="item-2"><h4>Sistema de Inscripcion Academica</h4> (Tecnologia: PHP Laravel MySQL)<p><a href="#" class="btn-more">Ver mas</a></p></div>
-                        <div class="item-2"><h4>Sistema de Seguimiento Academica</h4> (Tecnologia: PHP Codenaiter MySQL)<p><a href="#" class="btn-more">Ver mas</a></p></div>
-                        <div class="item-2"><h4>Sistema de Control y Asistencias</h4> (Tecnologia: C Sharp MySQL)<p><a href="#" class="btn-more">Ver mas</a></p></div>
-                        <div class="item-2"><h4>Sistema de Registro de datos Hidrometeorologicos</h4> (Nodejs, Angular, Postgesql)<p><a href="#" class="btn-more">Ver mas</a></p></div>
-                        
-                    </div>
+                
+            </aside>
+          </div>
+        </div>
+      </section>
+      <section id="acercade">
+        <div class="container about">
+          <h2>Acerca de mí</h2>
+          <p>
+            Soy un apasionado desarrollador de software con experiencia en
+            diversas tecnologías y lenguajes de programación. Me especializo en
+            el desarrollo de aplicaciones web y móviles, y siempre estoy
+            buscando aprender nuevas habilidades para mejorar mis proyectos.
+          </p>
+          <div class="skill-grid">
+            <article class="skill-card skill-backend">
+                <h3>Backend</h3>
+                <ul>
+                    <li>Nodejs</li>
+                    <li>php</li>
+                    <li>python</li>
+                    <li>java</li>
+                </ul>
+            </article>
+            <article class="skill-card skill-frontend">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Angular</li>
+                    <li>Vuejs</li>
+                </ul>
+            </article>
+            <article class="skill-card skill-database">
+                <h3>Base de Datos</h3>
+                <ul>
+                    <li>Mysql</li>
+                    <li>Posgresql</li>
+                    <li>MongoDB</li>
                     
+                </ul>
+            </article>
+          </div>
+          <p>Lenguajes de programación:</p>
+          <div class="leguajes">
+            <div class="item-l">Nodejs (nestjs, express)</div>
+            <div class="item-l">Php (laravel)</div>
+            <div class="item-l">Python (django)</div>
+            <div class="item-l">Java (spring)</div>
+            <div class="item-l">JavaScript/typescript (react, angular)</div>
+            <div class="item-l">Base de datos (mysql, postgresql, mongodb)</div>
+          </div>
+        </div>
+      </section>
+      <section id="servicios">
+        <div class="container">
+          <h2>Mis proyectos implementados</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-img">📱</div>
+              <div class="project-info">
+                <h3>App de Tareas</h3>
+                <p>
+                  Aplicación web con drag & drop, almacenamiento local y modo
+                  oscuro. UI minimalista con microinteracciones.
+                </p>
+                <div>
+                  <span class="tech-badge">React</span>
+                  <span class="tech-badge">CSS Modules</span>
+                  <span class="tech-badge">Flexbox</span>
                 </div>
-            </div>
-            
-        </section><p>
-        <section id="contacto">
-            <div class="container contact">
-            <h2 class="section-title">Contactenos</h2>
-                <div class="contact-form">
-                    <form action="#" method="post">
-                        <div class="form-group">
-                            <label for="nombre">Nombre completo</label>
-                            <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu Nombre">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Correo electrónico</label>
-                            <input type="email" id="email" name="email" required placeholder="usuario@example.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="mensaje">Mensaje</label>
-                            <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escribenos un mensaje"></textarea>
-                        </div>
-                        <button type="submit" class="btn-submit">Enviar mensaje →</button>
-                    </form>
-                    <p style="margin-top: 1rem; font-size: 0.8rem; text-align: center; color: var(--text-secondary)">* Recibirás respuesta en menos de 48h.</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-img">🌿</div>
+              <div class="project-info">
+                <h3>EcoShop</h3>
+                <p>
+                  E-commerce sostenible con sistema de filtros, carrito de
+                  compras y diseño responsive.
+                </p>
+                <div>
+                  <span class="tech-badge">HTML5 semántico</span>
+                  <span class="tech-badge">CSS Grid</span>
+                  <span class="tech-badge">JavaScript</span>
                 </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="contacto">
+        <div class="container contact">
+          <h2 class="section-title">Cantactenos</h2>
+          <div class="contact-info">
+            <div class="contact-item">
+                <span class="contact-icon"></span>
+                <div>
+                    <strong>Email</strong>
+                    <p>usuario@gmail.com</p>
+                </div>
+
             </div>
+            <div class="contact-item">
+                <span class="contact-icon"></span>
+                <div>
+                    <strong>Direccion</strong>
+                    <p>Av. los alamos nuero 100</p>
+                </div>
+
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon"></span>
+                <div>
+                    <strong>Respuesta</strong>
+                    <p>48 horas</p>
+                </div>
+
+            </div>
+          </div>
+          <div class="contact-form">
+            <form action="#" method="post">
+              <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  required
+                  placeholder="Tu nombre"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="tú@ejemplo.com"
+                />
+              </div>
+            <div class="form-group">
+                <label for="presupuesto">Presuesto estimado</label>
+                <span class="rango-valor" id="rango-valor">$1.000 - $5.000</span>
+                <input
+                  type="range"
+                  id="presupuesto"
+                  name="presupuesto"
+                  required
+                  placeholder="tú@ejemplo.com"
+                />
+              </div>
+              <div class="form-group">
+                  <label for="servicio">Tipo de servicio</label>
+                  <input
+                    type="search"
+                    id="servicio"
+                    name="servicio"
+                    list="servicios-list"
+                    placeholder="Busca un servicio..."
+                  />
+                  <datalist id="servicios-list">
+                    <option value="Desarrollo Web Full Stack">
+                    <option value="API REST / Back-End">
+                    <option value="Diseño UI / Front-End">
+                    <option value="Base de Datos">
+                    <option value="Consultoría Técnica">
+                  </datalist>
+                </div>
  
-        </section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dicta voluptate aliquam temporibus repellendus inventore alias dolor veniam magni eius unde, explicabo incidunt vero, vel ea earum neque? Facere, ab!</p>
+              <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                  id="mensaje"
+                  name="mensaje"
+                  rows="4"
+                  required
+                  placeholder="Cuéntame sobre tu proyecto..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-submit">Enviar mensaje →</button>
+            </form>
+            <p >* Recibirás respuesta en menos de 48h.</p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="container">
-            <div class="social-link">
-                <a href="#">Github</a>
-            <a href="#">Lindin</a>
-            <a href="#">Facebook</a>
-            </div>
-            
+      <div class="container footer-grid">
+        <div class="footer-brand">
+            <span class="logo">Joaquin Tola Copa</span>
         </div>
-        &copy; 2026 Mi sitio web. todos los derechos reservados.
+        <div class="social-links">
+          <a href="https://github.com/hebertcussi" target="_blank">Github</a>
+          <a href="https://www.linkedin.com/in/hebertcussi" target="_blank">LinkedIn</a>
+          <a href="https://www.facebook.com/hebertcussi" target="_blank">Facebook</a>
+        </div>
+      </div>
+      <p>&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
     </footer>
-</body>
+  </body>
 </html>
