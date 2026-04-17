@@ -132,6 +132,7 @@ nav ul li a:hover {
 .person {
     /* padding: 5rem 0 4rem;
     text-align: center; */
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;   /* 2 columnas iguales */
     grid-template-areas: "content visual";
@@ -144,8 +145,16 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     gap: 1.5rem; */
+    width: 100%;
     grid-area: content;
+    display: flex; 
+    gap: 10px;
+    margin: auto 0;
 }
+.person-content span{
+    color: black;
+}
+
 
 .person h1 {
     font-size: 3rem;
@@ -211,6 +220,7 @@ nav ul li a:hover {
   position: relative;
   height: 340px;
   animation: fadeUp 0.6s 0.3s ease both;
+  margin-left: 50px;
 }
 .person-img{
     grid-area:visual;
@@ -227,11 +237,11 @@ nav ul li a:hover {
     font-weight: 600;
     color: var(--accent);
     box-shadow: var(--card-shadow);
-    animation: float 4s esase-in-out infinite;
+    animation: float 4s infinite;
 }
 .card-a{
-    top:10%;
-    left: 5%;
+    top:20%;
+    left: 30%;
     animation-delay: 0s;
 }
 .card-b{
@@ -406,7 +416,9 @@ nav ul li a:hover {
     color: var(--text-primary);
 }
 
-
+.contac{
+    display: flex;
+}
 .contact-form {
     background: var(--bg-secondary);
     padding: 2rem;
@@ -414,6 +426,7 @@ nav ul li a:hover {
     border: 1px solid var(--border);
     max-width: 800px;
     margin: 2rem auto;
+    
 }
 
 .contact-form p {
@@ -593,4 +606,24 @@ footer {
 
     color: var(--text-secondary);
     font-size: 0.95rem;
+}
+
+
+@keyframes pageFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-100%); opacity: 0; }
+  to   { transform: translateY(0);     opacity: 1; }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-10px); }
 }
