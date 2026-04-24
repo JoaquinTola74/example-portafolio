@@ -1,0 +1,3 @@
+DATA_URL="postgresql://usuario:contraeña@localhost:5432/gestion_proyectos"
+PORT=3000
+NODE_ENV=development
